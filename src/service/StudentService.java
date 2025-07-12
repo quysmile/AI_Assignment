@@ -1,3 +1,7 @@
+package service;
+
+import model.Student;
+
 public interface StudentService {
     public void addAStudent(Student student);
 

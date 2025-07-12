@@ -1,3 +1,5 @@
+package model;
+
 public class Student {
     private int studentID;
     private String fullName;

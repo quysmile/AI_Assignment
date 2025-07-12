@@ -1,4 +1,9 @@
+package ui;
+
 import java.util.Scanner;
+
+import model.Student;
+import service.ManageStudentList;
 
 public class StudentMenu {
     private ManageStudentList studentList;
@@ -65,7 +70,7 @@ public class StudentMenu {
                 System.out.println("Invalid Number!");
                 break;
         }
-
+        scanner.close();
     }
 
     public void secondMenu() {
@@ -85,6 +90,7 @@ public class StudentMenu {
                 System.out.println("Invalid Number!");
                 break;
         }
+        scanner.close();
 
     }
 }

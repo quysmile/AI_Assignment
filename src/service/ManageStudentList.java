@@ -1,4 +1,8 @@
+package service;
+
 import java.util.ArrayList;
+
+import model.Student;
 
 public class ManageStudentList extends ArrayList<Student> implements StudentService {
 
